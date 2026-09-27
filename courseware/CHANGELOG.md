@@ -1,6 +1,36 @@
-# Changelog — Generative AI for Image and Video Creation (TGS-2020505925)
+# Changelog — Create Short Video Film using AI (TGS-2020505925)
 
 Append-only. Newest release first. Historical entries are never edited or collapsed.
+
+---
+
+## v12.0 — 27 September 2026
+
+**Release type:** Retitle and content revamp. Predecessor: v11.0, *Generative AI for Image and
+Video Creation*.
+
+### Why
+The course is now registered and listed as **Create Short Video Film using AI**, with five new
+delivery topics on the course page. The registered TSC (Computer Vision Technology,
+ICT-DIT-4022-1.1), the six LOs, K1–K13, A1–A8, the instruments and the 16 programme hours are
+unchanged, so the content was rebuilt around AI short-film production on the same competency map.
+
+### What changed
+- **Slides:** new 138-slide deck on the five published topics — the AI film pipeline, generator
+  families, reference-first production, structured and JSON prompting, state edits and reframing,
+  grading, character reference sheets, the look bible, video diffusion transformers, continuity
+  controls (start/end frames, video extension), multi-shot and timeline prompts, cast detection,
+  video analytics, voiceover-first sound, captions and export, cloud/local/hybrid architectures.
+  14 native charts, all labelled MEASURED / MODELLED / ILLUSTRATIVE from lab runs. Practice Exam slide added.
+- **Labs:** twelve new labs that build one 48-second film, *The Last Ferry*, each with a tested
+  script, data, SIMULATED media, prompt pack and PDF. All 12 run end to end (qa/lab-run-v12.log).
+- **Workflow sources:** seven current AI short-film tutorials added to the source register (S6–S12).
+- **LP / LG:** regenerated; version record v12.0; new glossary of film and AI-video terms.
+- **Assessment:** WA (13 questions, K1–K13, 60 min) and PP (5 tasks, A1–A8, 90 min) rewritten for a
+  new scenario (*Morning Crossing*, Lantern Lane Coffee) with new candidate resources; counts,
+  order, mapping and timings preserved.
+- **Archive:** v11.0 deck, LP, LG, assessments, labs and PP resources moved (not deleted) to the
+  archive folders.
 
 ---
 

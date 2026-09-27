@@ -1,0 +1,12 @@
+{
+  "note": "The Harbourline brief for The Last Ferry. Change ONE value at a time in the what-if steps and record how the recommendation moves.",
+  "budget_sgd": 400,
+  "deadline_hours": 24,
+  "uplink_mbps": 20,
+  "allowed_regions": ["SG", "US", "on-prem"],
+  "likeness_data_must_stay_local": false,
+  "min_quality_tier": 4,
+  "needs_shot_level_control": true,
+  "local_gpu_vram_gb": 16,
+  "quality_tier_scale": "1 draft / 2 social-acceptable / 3 good / 4 brand hero / 5 broadcast - set from your own side-by-side review, not from marketing claims"
+}

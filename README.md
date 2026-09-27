@@ -1,75 +1,79 @@
-# Generative AI for Image and Video Creation
+# Create Short Video Film using AI
 
-Create and evaluate image and video content through prompt experiments, controlled editing, computer vision measurements and practical video workflows.
+Plan, generate, verify and finish a complete short film with AI — from the story and reference sheets to shot prompts, sound, captions and the final export.
 
 | Course detail | Information |
 |---|---|
 | Course code | `TGS-2020505925` |
 | Programme | WSQ |
 | Duration | 2 days, 16 programme hours |
-| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-generative-ai-for-image-and-video-creation.html) |
-| Funding | Up to 70% for eligible applicants; eligibility and programme terms apply. Official listing checked 6 September 2026. |
-| Courseware | v11.0 · 6 September 2026 |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-create-short-video-film-using-ai.html) |
+| Funding | Up to 70% for eligible applicants (SkillsFuture Singapore funding). Eligibility and programme terms apply; official listing checked 28 September 2026. |
+| Skills Framework | Computer Vision Technology (`ICT-DIT-4022-1.1`) |
+| Courseware | v12.0 · 27 September 2026 |
 
 ## About the course
 
-This course combines generative image and video workflows with the underlying computer vision skills used to inspect, transform and evaluate media. Learners work with prompts, masks, image features, detection, tracking, video composition and cloud/edge design.
+A practical, hands-on course on producing short video films with generative AI. You develop a concept, story and shot list; build consistent characters, locations and props as reusable references; write structured prompts for cinematic stills and shots; animate them with start/end frames and video extension; add voiceover, music, sound effects and captions; and export for every platform.
 
-The courseware preserves the registered Computer Vision Technology competency alignment (`ICT-DIT-4022-1.1`). The lesson plan allocates 13.5 hours to training and 2.5 hours to assessment, consistent with the registered assessment instruments. Breaks are outside these programme hours.
+Alongside the creative workflow, the course teaches the computer vision that keeps an AI film coherent: frame and format handling, grading and enhancement measured with PSNR and SSIM, feature-based character-consistency checks, a numeric look bible, cast detection, and video analytics for cuts, motion, flicker and identity drift. It closes with designing and evaluating cloud, local and hybrid production architectures.
+
+All twelve labs build one 48-second film, *The Last Ferry*. They run offline on Python with `opencv-python` and NumPy; AI image, video, voice and music tools are optional extensions.
 
 ## Learning outcomes
 
-- Understand basic vision systems concepts and applications.
-- Apply image processing.
-- Implement feature extraction.
-- Apply machine learning based computer vision methods.
-- Implement video analytics algorithms.
-- Evaluate edge vs cloud-based computer vision systems.
+- **LO1** — Understand basic vision systems concepts and applications: decide which film projects genuinely need AI and specify the production pipeline.
+- **LO2** — Apply image processing: handle frames, formats and aspect ratios; generate, edit, grade and enhance stills.
+- **LO3** — Implement feature extraction: extract the features that keep characters, props and locations consistent.
+- **LO4** — Apply machine learning based computer vision methods: use deep-learning generators and detectors to animate shots and verify the cast.
+- **LO5** — Implement video analytics algorithms: analyse the generated film for cuts, motion, tracking, flicker and drift.
+- **LO6** — Evaluate edge vs cloud-based computer vision systems: design and evaluate cloud, local and hybrid production architectures.
 
 ## Topics covered
 
-1. Generative AI Fundamentals for Image and Video Creation
-2. AI Image Generation, Editing and Visual Enhancement
-3. AI-Based Visual Features, Styles and Consistency
-4. Generative AI Video Creation, Animation and Editing
-5. Evaluating Cloud and Edge AI Creative Workflows
+1. AI Vision and Generative AI for Short Film Creation
+2. AI Image Processing, Generation and Visual Enhancement
+3. AI Visual Features, Character Consistency and Scene Design
+4. AI Video Generation, Animation and Video Analytics
+5. Cloud and Edge AI Workflows for Short Film Production
 
 ## Labs
 
-Each folder contains detailed instructions, a prompt booklet in PDF, mock data and local reference media. Follow its README for environment requirements and evidence to produce.
+Each folder has step-by-step instructions (README and PDF), a prompt pack, data, SIMULATED reference media and a tested script.
 
-- [Lab 01: Vision-System Needs Analysis and Generative Pipeline Specification](labs/lab-01-vision-needs-analysis/README.md)
-- [Lab 02: Image and Video Data Representation](labs/lab-02-image-video-representation/README.md)
-- [Lab 03: Prompt Experiment Matrix for Controlled Image Generation](labs/lab-03-prompt-experiment-matrix/README.md)
-- [Lab 04: Masking, Inpainting, Outpainting and Background Swap](labs/lab-04-masking-inpainting-outpainting/README.md)
-- [Lab 05: Filtering, Enhancement and Restoration Measured with PSNR and SSIM](labs/lab-05-filtering-enhancement-metrics/README.md)
-- [Lab 06: Local Features: Colour Segmentation, Canny Edges and Corner Keypoints](labs/lab-06-local-features-edges-keypoints/README.md)
-- [Lab 07: Global Descriptors, Template Matching and Brand-Consistency Scoring](labs/lab-07-global-descriptors-consistency/README.md)
-- [Lab 08: Object Detection and Quantitative Evaluation](labs/lab-08-object-detection-evaluation/README.md)
-- [Lab 09: Storyboard to Video Prompt Pack and Deterministic Animatic](labs/lab-09-storyboard-video-prompting/README.md)
-- [Lab 10: Motion, Tracking and Temporal Continuity Measurement](labs/lab-10-motion-tracking-continuity/README.md)
-- [Lab 11: Captions, Overlays, Safe Areas and Export Profiles](labs/lab-11-captions-overlays-export/README.md)
-- [Lab 12: Cloud-Edge Architecture Design and Measured Trade-offs](labs/lab-12-cloud-edge-architecture-tradeoffs/README.md)
+- [Lab 01: Film Needs Analysis and AI Production Pipeline Specification](labs/lab-01-film-needs-analysis/README.md)
+- [Lab 02: Frames, Formats and Aspect Ratios for Film Delivery](labs/lab-02-frames-formats-aspect-ratios/README.md)
+- [Lab 03: Structured Prompting for Cinematic Stills](labs/lab-03-structured-prompting-stills/README.md)
+- [Lab 04: State Variants, Clean-Up and Reframing with Masks](labs/lab-04-state-variants-reframing/README.md)
+- [Lab 05: Cinematic Grading and Enhancement Measured with PSNR and SSIM](labs/lab-05-grading-enhancement-metrics/README.md)
+- [Lab 06: Character Reference Sheets and Consistency Features](labs/lab-06-character-consistency-features/README.md)
+- [Lab 07: Look Bible and Scene Continuity with Global Descriptors](labs/lab-07-look-bible-scene-continuity/README.md)
+- [Lab 08: Cast-Presence Detection and Detector Evaluation](labs/lab-08-cast-detection-evaluation/README.md)
+- [Lab 09: Storyboard to Shot Prompts, Start and End Frames, and the Animatic](labs/lab-09-storyboard-shot-prompts/README.md)
+- [Lab 10: Shot, Motion and Continuity Analytics on the Assembled Sequence](labs/lab-10-shot-motion-continuity-analytics/README.md)
+- [Lab 11: Voiceover, Music, Captions and the Final Export Ladder](labs/lab-11-sound-captions-final-export/README.md)
+- [Lab 12: Cloud, Local and Hybrid Production Architecture Evaluation](labs/lab-12-cloud-local-production-architecture/README.md)
 
-## Public package and use
+## Public package
 
-- [CHANGELOG.md](courseware/CHANGELOG.md)
-- [Generative AI for Image and Video Creation-v11.0.pdf](courseware/Generative%20AI%20for%20Image%20and%20Video%20Creation-v11.0.pdf)
-- [Generative AI for Image and Video Creation-v11.0.pptx](courseware/Generative%20AI%20for%20Image%20and%20Video%20Creation-v11.0.pptx)
-- [LG-Generative AI for Image and Video Creation.docx](courseware/LG-Generative%20AI%20for%20Image%20and%20Video%20Creation.docx)
-- [LG-Generative AI for Image and Video Creation.md](courseware/LG-Generative%20AI%20for%20Image%20and%20Video%20Creation.md)
-- [LG-Generative AI for Image and Video Creation.pdf](courseware/LG-Generative%20AI%20for%20Image%20and%20Video%20Creation.pdf)
-- [LP-Generative AI for Image and Video Creation.docx](courseware/LP-Generative%20AI%20for%20Image%20and%20Video%20Creation.docx)
-- [LP-Generative AI for Image and Video Creation.pdf](courseware/LP-Generative%20AI%20for%20Image%20and%20Video%20Creation.pdf)
+- [Slide deck (PowerPoint) — Create Short Video Film using AI-v12.0.pptx](courseware/Create%20Short%20Video%20Film%20using%20AI-v12.0.pptx)
+- [Slide deck (PDF) — Create Short Video Film using AI-v12.0.pdf](courseware/Create%20Short%20Video%20Film%20using%20AI-v12.0.pdf)
+- [Learner Guide (Word) — LG-Create Short Video Film using AI.docx](courseware/LG-Create%20Short%20Video%20Film%20using%20AI.docx)
+- [Learner Guide (PDF) — LG-Create Short Video Film using AI.pdf](courseware/LG-Create%20Short%20Video%20Film%20using%20AI.pdf)
+- [Learner Guide (Markdown) — LG-Create Short Video Film using AI.md](courseware/LG-Create%20Short%20Video%20Film%20using%20AI.md)
+- [Lesson Plan (Word) — LP-Create Short Video Film using AI.docx](courseware/LP-Create%20Short%20Video%20Film%20using%20AI.docx)
+- [Lesson Plan (PDF) — LP-Create Short Video Film using AI.pdf](courseware/LP-Create%20Short%20Video%20Film%20using%20AI.pdf)
+- [Changelog — CHANGELOG.md](courseware/CHANGELOG.md)
+- [Labs index](labs/README.md)
 
-Detailed procedures are in the Learner Guide and individual lab folders. The presentation concentrates on mechanisms, diagrams and worked examples.
+Detailed procedures live in the Learner Guide and the lab folders; the slides carry the concepts, diagrams and measured results.
 
-The basic classroom exercises use local fixtures and do not require paid generation services. Optional live generation needs a suitable provider account and may incur charges. Synthetic classroom media is labelled as simulated; it is not presented as a real model result. AI-generated reference images are identified in their provenance records. Measurement examples illustrate evaluation methods rather than vendor benchmarks.
+Every image and clip in the labs is a clearly labelled SIMULATED illustration or a documented AI-generated reference — nothing is presented as a photograph or as model output it is not. Tools named in the course are examples drawn from current AI film-making tutorials, not endorsements; check each tool's current features and terms before use.
 
 ## Distribution boundary
 
-This repository contains learner-facing teaching materials and lab assets. Assessment papers, answer keys, credentials, private reference ebooks, legacy source material and internal build/QA files are excluded. Trainers distribute assessment instruments through the authorised course channel.
+This repository contains learner-facing courseware and labs. Assessment papers, answer keys, assessment resources, source references, credentials and internal build/QA files are not published. Trainers distribute assessment instruments through the authorised course channel.
 
 ## Provider
 
-Tertiary Infotech Academy Pte Ltd. For course bookings and current programme terms, use the [official registration page](https://www.tertiarycourses.com.sg/wsq-generative-ai-for-image-and-video-creation.html).
+Tertiary Infotech Academy Pte Ltd (UEN 201200696W). For course dates, fees and funding terms, use the [official registration page](https://www.tertiarycourses.com.sg/wsq-create-short-video-film-using-ai.html).

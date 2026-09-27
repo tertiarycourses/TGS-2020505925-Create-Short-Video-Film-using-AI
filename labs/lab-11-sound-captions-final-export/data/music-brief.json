@@ -1,0 +1,18 @@
+{
+  "prompt": "Instrumental, sparse felt piano over a soft synth pulse, melancholy building to a warm resolve, 86 BPM, no vocals, ends on a sustained major chord.",
+  "bpm": 86,
+  "chord_roots_hz": [
+    220.0,
+    174.6,
+    261.6,
+    196.0
+  ],
+  "horn_at_s": [
+    5.6
+  ],
+  "duck_db": 9,
+  "target_peak_dbfs": -1.5,
+  "max_peak_dbfs": -1.0,
+  "min_voice_over_music_db": 6,
+  "delivery_note": "Streaming platforms normalise loudness (commonly around -14 LUFS integrated). This lab measures peak and RMS with NumPy; measure LUFS with a loudness meter before final delivery."
+}

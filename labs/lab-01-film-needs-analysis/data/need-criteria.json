@@ -1,0 +1,31 @@
+{
+  "description": "Six need criteria scored 0-5 where 5 is the most favourable to an AI short-film workflow, plus three gates that are applied BEFORE any score is considered.",
+  "weights": {
+    "volume": 0.20,
+    "repeatability": 0.20,
+    "speed_value": 0.15,
+    "review_tolerance": 0.15,
+    "likeness_risk": 0.15,
+    "cost_gap": 0.15
+  },
+  "rules": {
+    "volume_minutes": [[10, 5], [3, 3], [0, 1]],
+    "repeatability": {"high": 5, "medium": 3, "low": 1},
+    "speed_value_note": "5 if turnaround <= 5 days, 3 if 6-15 days, 1 above 15 days - fast iteration is where AI production pays",
+    "review_tolerance": {"high": 5, "medium": 3, "low": 1},
+    "likeness_risk": {"fictional": 5, "consented_real": 3, "real_unconsented": 1},
+    "cost_gap": [[0.6, 5], [0.3, 3], [0, 1]]
+  },
+  "gate_fail_likeness": ["real_unconsented"],
+  "gates": {
+    "ai_appropriate": "Would AI-generated imagery be acceptable to the audience at all? A factual statement by a real person fails.",
+    "rights_cleared": "Are rights, regulator or licence approvals in place? 'pending' is UNKNOWN, which means HOLD.",
+    "likeness_consent": "Does the film use a real person's face or voice without documented consent? That fails, whatever the score."
+  },
+  "accept_threshold": 3.6,
+  "workflow_patterns": {
+    "all_in_one_agent": "One photo + one structured prompt -> finished short drama. Fastest; least shot-level control; good for social volume and quick drafts.",
+    "multi_tool_pipeline": "Planner LLM -> image model (references, keyframes) -> video model -> voice -> music -> editor. Most control and consistency; most steps.",
+    "hybrid_local": "Cloud generation for hero shots; local open models, QA, grading and edit on a workstation. Best for privacy, repeatable series and cost control."
+  }
+}

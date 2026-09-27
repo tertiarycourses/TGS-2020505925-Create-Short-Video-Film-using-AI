@@ -1,0 +1,11 @@
+{
+  "note": "Four defects typical of a raw or draft generation, applied to the approved graded master so every repair can be scored against a known reference.",
+  "degradations": [
+    {"name": "sensor-like noise", "kind": "noise", "sigma": 14, "seed": 7},
+    {"name": "soft focus", "kind": "blur", "sigma": 1.6},
+    {"name": "flat log-like look", "kind": "flat", "contrast": 0.62, "lift": 34},
+    {"name": "half-res draft", "kind": "halfres"}
+  ],
+  "look_strength": 0.25,
+  "reading_the_numbers": "PSNR (dB) rewards per-pixel accuracy and forgives smoothing. SSIM (0-1) rewards preserved structure. When they disagree, look at the picture and say which defect matters for this shot."
+}

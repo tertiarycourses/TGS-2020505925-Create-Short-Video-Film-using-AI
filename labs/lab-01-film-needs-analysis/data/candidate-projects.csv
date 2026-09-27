@@ -1,0 +1,7 @@
+project_id,name,format,episodes_per_quarter,finished_seconds_each,repeatability,turnaround_days_required,review_tolerance,likeness_risk,current_cost_sgd_per_quarter,estimated_ai_cost_sgd_per_quarter,ai_appropriate,rights_status,notes
+P1,The Last Ferry - 50th anniversary brand short film,16:9 hero + 9:16 cut-downs,7,30,medium,10,high,fictional,38000,9000,yes,not_applicable,One 48 s hero film plus six 20-30 s social cut-downs; fictional cast; brand team reviews every cut
+P2,Route Stories - twice-weekly social series,9:16 vertical,26,30,high,3,medium,fictional,52000,14000,yes,not_applicable,Same two fictional hosts every episode; social team spot-checks before posting
+P3,Crew safety micro-dramas in six languages,16:9,18,60,high,30,high,fictional,60000,30000,yes,pending,Maritime regulator has not yet confirmed that synthetic depiction of safety equipment is acceptable
+P4,Personalised birthday greetings using passenger selfies,9:16 vertical,400,15,high,1,low,real_unconsented,20000,4000,yes,not_applicable,Auto-sent to passengers; faces taken from loyalty-app profile photos
+P5,CEO interview for the annual report,16:9,1,180,low,20,high,consented_real,8000,6000,no,cleared,Factual statement by a real executive; authenticity matters more than speed
+P6,Previsualisation animatics for the 2027 TV commercial,16:9,4,30,medium,5,high,fictional,15000,3000,yes,not_applicable,Director wants four alternative storyboards animated before the live shoot is locked

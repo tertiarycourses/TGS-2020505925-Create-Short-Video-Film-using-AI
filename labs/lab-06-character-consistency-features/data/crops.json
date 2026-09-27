@@ -1,0 +1,145 @@
+{
+  "note": "Boxes are [x, y, w, h]. In production they come from a detector or a manual mark-up; here they are exact because the frames were rendered.",
+  "crops": {
+    "sheet": {
+      "character": [
+        50,
+        100,
+        130,
+        400
+      ],
+      "prop": [
+        625,
+        350,
+        215,
+        150
+      ],
+      "clasp": [
+        708,
+        375,
+        45,
+        45
+      ]
+    },
+    "shot_01.png": {
+      "character": [
+        271,
+        100,
+        204,
+        400
+      ],
+      "prop": [
+        277,
+        310,
+        67,
+        51
+      ],
+      "clasp": [
+        301,
+        320,
+        13,
+        13
+      ]
+    },
+    "shot_02.png": {
+      "character": [
+        368,
+        100,
+        204,
+        400
+      ],
+      "prop": [
+        374,
+        310,
+        67,
+        51
+      ],
+      "clasp": [
+        398,
+        320,
+        13,
+        13
+      ]
+    },
+    "shot_03.png": {
+      "character": [
+        465,
+        100,
+        204,
+        400
+      ],
+      "prop": [
+        471,
+        310,
+        67,
+        51
+      ],
+      "clasp": [
+        495,
+        320,
+        13,
+        13
+      ]
+    },
+    "shot_04.png": {
+      "character": [
+        182,
+        100,
+        204,
+        400
+      ],
+      "prop": [
+        188,
+        310,
+        67,
+        51
+      ],
+      "clasp": [
+        212,
+        320,
+        13,
+        13
+      ]
+    },
+    "shot_05.png": {
+      "character": [
+        279,
+        100,
+        204,
+        400
+      ],
+      "prop": [
+        285,
+        310,
+        67,
+        51
+      ],
+      "clasp": [
+        309,
+        320,
+        13,
+        13
+      ]
+    },
+    "shot_06.png": {
+      "character": [
+        376,
+        100,
+        204,
+        400
+      ],
+      "prop": [
+        382,
+        310,
+        67,
+        51
+      ],
+      "clasp": [
+        406,
+        320,
+        13,
+        13
+      ]
+    }
+  }
+}

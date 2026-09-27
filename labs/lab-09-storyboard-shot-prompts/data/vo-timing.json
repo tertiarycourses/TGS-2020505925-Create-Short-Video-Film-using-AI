@@ -1,0 +1,53 @@
+{
+  "note": "Generate the voiceover FIRST, measure each line, then cut the storyboard to it. Times are seconds from the start of the film. Emotion and intensity become audio tags or per-character emotion controls.",
+  "lines": [
+    {
+      "speaker": "MEI (V.O.)",
+      "text": "Last ferry leaves at midnight. Four minutes.",
+      "start": 1.0,
+      "end": 4.6,
+      "emotion": "breathless",
+      "intensity": "medium"
+    },
+    {
+      "speaker": "MEI",
+      "text": "Don't drop it. Don't drop it.",
+      "start": 9.5,
+      "end": 12.5,
+      "emotion": "muttering",
+      "intensity": "high"
+    },
+    {
+      "speaker": "MEI (V.O.)",
+      "text": "No sender. Just a tag, folded shut.",
+      "start": 17.5,
+      "end": 22.5,
+      "emotion": "curious",
+      "intensity": "low"
+    },
+    {
+      "speaker": "CAPTAIN TAN",
+      "text": "You made it. Most couriers don't.",
+      "start": 26.0,
+      "end": 29.5,
+      "emotion": "calm",
+      "intensity": "low"
+    },
+    {
+      "speaker": "CAPTAIN TAN",
+      "text": "It's not for me. Read the tag.",
+      "start": 31.0,
+      "end": 34.5,
+      "emotion": "warm",
+      "intensity": "medium"
+    },
+    {
+      "speaker": "MEI",
+      "text": "It's addressed to me.",
+      "start": 38.5,
+      "end": 41.5,
+      "emotion": "stunned whisper",
+      "intensity": "low"
+    }
+  ]
+}

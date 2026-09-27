@@ -1,0 +1,201 @@
+{
+  "title": "The Last Ferry",
+  "prompt_version": "shots-v1",
+  "runtime_s": 48,
+  "clip_cap_s": 10,
+  "aspect": "16:9",
+  "max_words_per_s": 3.0,
+  "style": "Cinematic blue-hour night, teal shadows with warm practicals, light rain, 35mm film grain, shallow depth of field",
+  "continuity_block": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain.",
+  "negative": [
+    "extra people in the foreground",
+    "text or logos",
+    "changed coat or scarf colour",
+    "daylight",
+    "morphing faces"
+  ],
+  "elements": {
+    "mei": "reference sheet mei_sheet_v1 (front, side, back, close-up)",
+    "captain_tan": "reference sheet tan_sheet_v1",
+    "night_market": "location plate night_market_v1",
+    "harbour_pier_docked": "location plate pier_v1 state A",
+    "harbour_pier_leaving": "location plate pier_v1 state B (edited from A, verified in Lab 04)",
+    "red_box": "prop plate red_box_v1"
+  },
+  "shots": [
+    {
+      "id": "S1",
+      "duration_s": 8,
+      "size": "wide",
+      "angle": "eye level",
+      "camera_move": "slow pan right",
+      "lens": "24mm",
+      "subject": "MEI",
+      "action": "weaves through the crowded night market, clutching the red box to her chest",
+      "environment": "lantern-lit street, steam from food stalls, wet ground",
+      "elements": [
+        "mei",
+        "night_market",
+        "red_box"
+      ],
+      "beats": [
+        {
+          "at": 0,
+          "beat": "Lanterns sway; the camera finds MEI in the crowd."
+        },
+        {
+          "at": 5,
+          "beat": "She checks her watch without slowing."
+        }
+      ],
+      "takes": 1,
+      "continuity": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain."
+    },
+    {
+      "id": "S2",
+      "duration_s": 8,
+      "size": "medium",
+      "angle": "eye level",
+      "camera_move": "tracking left to right",
+      "lens": "35mm",
+      "subject": "MEI",
+      "action": "runs past neon signs, the box tucked under one arm",
+      "environment": "neon signs, rain streaks, shallow depth of field",
+      "elements": [
+        "mei",
+        "night_market",
+        "red_box"
+      ],
+      "beats": [
+        {
+          "at": 0,
+          "beat": "MEI sprints into frame."
+        },
+        {
+          "at": 6,
+          "beat": "She nearly slips, recovers, keeps going."
+        }
+      ],
+      "takes": 3,
+      "constraints": "Dense action: generate three takes and pick one.",
+      "continuity": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain."
+    },
+    {
+      "id": "S3",
+      "duration_s": 6,
+      "size": "close-up",
+      "angle": "high angle",
+      "camera_move": "slow push-in",
+      "lens": "85mm",
+      "subject": "The red box in MEI's hands",
+      "action": "rain beads on the lacquer; the paper tag flutters, still folded",
+      "environment": "bokeh behind",
+      "elements": [
+        "red_box",
+        "mei"
+      ],
+      "beats": [
+        {
+          "at": 0,
+          "beat": "Rain on red lacquer."
+        },
+        {
+          "at": 3,
+          "beat": "The folded tag lifts in the wind."
+        }
+      ],
+      "takes": 1,
+      "continuity": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain."
+    },
+    {
+      "id": "S4",
+      "duration_s": 8,
+      "size": "wide",
+      "angle": "eye level",
+      "camera_move": "locked-off",
+      "lens": "28mm",
+      "subject": "MEI and CAPTAIN TAN",
+      "action": "MEI runs down the pier towards CAPTAIN TAN, who waits beside the idling ferry",
+      "environment": "sodium lamp, ferry lights on",
+      "elements": [
+        "mei",
+        "captain_tan",
+        "harbour_pier_docked",
+        "red_box"
+      ],
+      "beats": [
+        {
+          "at": 0,
+          "beat": "MEI enters at the far end of the pier."
+        },
+        {
+          "at": 4,
+          "beat": "TAN turns towards her."
+        }
+      ],
+      "takes": 1,
+      "continuity": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain."
+    },
+    {
+      "id": "S5",
+      "duration_s": 6,
+      "size": "medium two-shot",
+      "angle": "over-the-shoulder",
+      "camera_move": "static",
+      "lens": "50mm",
+      "subject": "MEI and CAPTAIN TAN",
+      "action": "MEI holds out the box; TAN does not take it and nods at the tag",
+      "environment": "",
+      "elements": [
+        "mei",
+        "captain_tan",
+        "harbour_pier_docked",
+        "red_box"
+      ],
+      "beats": [
+        {
+          "at": 0,
+          "beat": "MEI offers the box, out of breath."
+        },
+        {
+          "at": 3,
+          "beat": "TAN smiles and gestures to the tag."
+        }
+      ],
+      "takes": 2,
+      "continuity": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain."
+    },
+    {
+      "id": "S6",
+      "duration_s": 12,
+      "size": "wide",
+      "angle": "low angle",
+      "camera_move": "slow crane up",
+      "lens": "24mm",
+      "subject": "MEI",
+      "action": "reads the tag, looks up as the ferry pulls away, and smiles",
+      "environment": "ferry mid-harbour with a white wake",
+      "elements": [
+        "mei",
+        "harbour_pier_leaving",
+        "red_box"
+      ],
+      "beats": [
+        {
+          "at": 0,
+          "beat": "MEI unfolds the tag."
+        },
+        {
+          "at": 6,
+          "beat": "The ferry pulls away; she does not chase it."
+        },
+        {
+          "at": 10,
+          "beat": "Hold on her smile; lamp flickers."
+        }
+      ],
+      "takes": 1,
+      "continuity": "Continuity: MEI wears the same yellow hooded raincoat, red scarf and black cross-body bag with a chequered patch; CAPTAIN TAN wears a navy pea coat and white captain's cap; it is always blue hour with light rain."
+    }
+  ]
+}

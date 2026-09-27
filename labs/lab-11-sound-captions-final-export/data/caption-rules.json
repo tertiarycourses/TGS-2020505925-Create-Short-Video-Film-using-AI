@@ -1,0 +1,9 @@
+{
+  "note": "House subtitle rules for social and broadcast delivery. Burned-in captions cannot be edited after export, so they are checked first.",
+  "max_lines": 2,
+  "max_chars_per_line": 42,
+  "max_chars_per_second": 17,
+  "min_duration_s": 1.0,
+  "max_duration_s": 7.0,
+  "min_gap_s": 0.08
+}

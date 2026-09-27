@@ -1,0 +1,16 @@
+{
+  "note": "The classroom master is 960x540 to keep the labs fast. A production master is 1920x1080 (or 3840x2160) at the same 16:9 aspect; every ratio below scales unchanged.",
+  "master": {"w": 960, "h": 540, "fps": 24},
+  "probe_second": 6.0,
+  "deliveries": [
+    {"name": "youtube_16x9", "w": 1920, "h": 1080, "max_s": null,
+     "ui_safe": {"top": 0.05, "bottom": 0.05, "sides": 0.05}},
+    {"name": "reels_9x16", "w": 1080, "h": 1920, "max_s": 90,
+     "ui_safe": {"top": 0.14, "bottom": 0.20, "sides": 0.06}},
+    {"name": "feed_4x5", "w": 1080, "h": 1350, "max_s": 60,
+     "ui_safe": {"top": 0.06, "bottom": 0.10, "sides": 0.05}},
+    {"name": "square_1x1", "w": 1080, "h": 1080, "max_s": 60,
+     "ui_safe": {"top": 0.05, "bottom": 0.08, "sides": 0.05}}
+  ],
+  "ui_safe_note": "Vertical platforms overlay the caption, handle and buttons on the bottom ~20% and the top ~14%. Keep faces, the prop and every caption inside the yellow rectangle. Exact overlay sizes vary by platform and app version - check the current platform guide before delivery."
+}

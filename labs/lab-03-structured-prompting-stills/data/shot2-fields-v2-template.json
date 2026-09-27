@@ -1,0 +1,14 @@
+{
+  "prompt_version": "shot2-v2",
+  "subject": "MEI, courier in her mid-20s: yellow hooded raincoat, red scarf, black cross-body bag with a chequered patch, holding the RED BOX (red lacquer, brass clasp, paper tag)",
+  "action": "",
+  "environment": "",
+  "camera": "",
+  "style": "",
+  "constraints": "",
+  "references": ["mei_sheet_v1", "night_market_plate_v1", "red_box_v1"],
+  "negative": ["extra people in the foreground", "text or logos", "changed coat colour", "dry pavement"],
+  "aspect_ratio": "16:9",
+  "resolution": "1K draft, upscale keepers only",
+  "seed": 4127
+}

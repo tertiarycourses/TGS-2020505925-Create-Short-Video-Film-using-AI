@@ -1,0 +1,11 @@
+{
+  "profiles": [
+    {"name": "master_16x9", "w": 960, "h": 540, "follow_subject": false, "caption_scale": 0.8,
+     "safe": {"bottom": 0.07, "sides": 0.05}},
+    {"name": "reels_9x16", "w": 540, "h": 960, "follow_subject": true, "caption_scale": 0.75,
+     "safe": {"bottom": 0.22, "sides": 0.08}},
+    {"name": "feed_4x5", "w": 540, "h": 675, "follow_subject": true, "caption_scale": 0.7,
+     "safe": {"bottom": 0.10, "sides": 0.06}}
+  ],
+  "note": "Classroom sizes are half of the production sizes (1920x1080, 1080x1920, 1080x1350) to keep the lab fast; the geometry is identical."
+}

@@ -1,0 +1,36 @@
+{
+  "note": "Starting parameters. Every threshold is a design decision - report the value you used and why.",
+  "flow_step": 3,
+  "pan_px": 1.0,
+  "flicker_threshold": 4.0,
+  "coat_hsv_lo": [
+    18,
+    195,
+    235
+  ],
+  "coat_hsv_hi": [
+    28,
+    255,
+    255
+  ],
+  "coat_note": "Tight range: excludes orange lanterns (hue ~13), lit windows (S < 195) and the brass clasp (V < 235).",
+  "drift_hsv_lo": [
+    5,
+    180,
+    200
+  ],
+  "drift_hsv_hi": [
+    40,
+    255,
+    255
+  ],
+  "drift_note": "Wide range, measured ONLY inside the tracked box, so a coat that drifts from yellow to orange is still measured.",
+  "hue_drift_limit": 4,
+  "appear_px": 2000,
+  "cut_min_diff": 12,
+  "cut_ratio": 5,
+  "cut_window": 12,
+  "cut_min_hist": 0.08,
+  "min_bg_features": 20,
+  "cut_note": "A cut needs BOTH a pixel-difference jump above max(cut_min_diff, cut_ratio x the recent median) AND a histogram change above cut_min_hist. A flicker passes the first test and fails the second."
+}

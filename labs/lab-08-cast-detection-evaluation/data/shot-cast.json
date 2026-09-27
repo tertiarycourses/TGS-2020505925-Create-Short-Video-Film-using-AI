@@ -1,0 +1,53 @@
+{
+  "note": "Expected on-screen speaking faces per frame, taken from the shot list. Compare with the detector count to flag cast drift.",
+  "frames": {
+    "frame_00.png": {
+      "shot": "S1",
+      "expected_faces": 1
+    },
+    "frame_01.png": {
+      "shot": "S1",
+      "expected_faces": 2
+    },
+    "frame_02.png": {
+      "shot": "S2",
+      "expected_faces": 1
+    },
+    "frame_03.png": {
+      "shot": "S2",
+      "expected_faces": 2
+    },
+    "frame_04.png": {
+      "shot": "S3",
+      "expected_faces": 2
+    },
+    "frame_05.png": {
+      "shot": "S3",
+      "expected_faces": 2
+    },
+    "frame_06.png": {
+      "shot": "S4",
+      "expected_faces": 1
+    },
+    "frame_07.png": {
+      "shot": "S4",
+      "expected_faces": 2
+    },
+    "frame_08.png": {
+      "shot": "S5",
+      "expected_faces": 1
+    },
+    "frame_09.png": {
+      "shot": "S5",
+      "expected_faces": 1
+    },
+    "frame_10.png": {
+      "shot": "S6",
+      "expected_faces": 1
+    },
+    "frame_11.png": {
+      "shot": "S6",
+      "expected_faces": 2
+    }
+  }
+}

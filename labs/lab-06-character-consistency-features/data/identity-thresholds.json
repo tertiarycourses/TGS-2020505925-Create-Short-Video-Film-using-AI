@@ -1,0 +1,15 @@
+{
+  "note": "Starting thresholds for MEI. They are design decisions: justify any change with the numbers from your own run.",
+  "coat_hsv_lo": [5, 150, 170],
+  "coat_hsv_hi": [40, 255, 255],
+  "coat_hue_tolerance": 4,
+  "min_scarf_red_cover": 0.05,
+  "orb_nfeatures": 800,
+  "ratio": 0.75,
+  "min_orb_matches": 8,
+  "brass_hsv_lo": [15, 120, 150],
+  "brass_hsv_hi": [30, 255, 255],
+  "min_clasp_brass_cover": 0.30,
+  "canny_low": 60,
+  "canny_high": 150
+}

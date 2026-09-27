@@ -1,0 +1,30 @@
+{
+  "note": "ILLUSTRATIVE classroom values. Credit prices, render speeds and queue times change monthly and differ by plan - replace them with current published figures before quoting a client.",
+  "architectures": [
+    {"name": "A all-in-one drama agent", "pattern": "all_in_one_agent",
+     "credits_per_generated_s": 12, "sgd_per_credit": 0.02, "fixed_sgd": 30,
+     "render_s_per_generated_s": 6, "queue_s_per_job": 60,
+     "uploads_references": true, "data_leaves_premises": true, "region": "US",
+     "quality_tier": 3, "shot_level_control": false,
+     "protocol": "HTTPS chat-style request with one uploaded photo; the agent orchestrates planning, stills, video, voice and music internally; you poll for completion and download the finished file by URL"},
+    {"name": "B multi-tool cloud pipeline", "pattern": "multi_tool_pipeline",
+     "credits_per_generated_s": 20, "sgd_per_credit": 0.02, "fixed_sgd": 120,
+     "render_s_per_generated_s": 10, "queue_s_per_job": 90,
+     "uploads_references": true, "data_leaves_premises": true, "region": "US",
+     "quality_tier": 4, "shot_level_control": true,
+     "protocol": "References uploaded once via signed-URL PUT to object storage; each shot POSTed as JSON to a REST endpoint that returns an operation ID; the client polls the long-running operation (or receives a webhook), then downloads the clip by signed URL"},
+    {"name": "C hybrid: cloud hero + local post", "pattern": "hybrid_local",
+     "credits_per_generated_s": 14, "sgd_per_credit": 0.02, "fixed_sgd": 60,
+     "render_s_per_generated_s": 9, "queue_s_per_job": 60,
+     "uploads_references": true, "data_leaves_premises": true, "region": "SG",
+     "quality_tier": 4, "shot_level_control": true,
+     "protocol": "As B for generation (REST + long-running operation or webhook); QA analytics, grade, captions, mix and export run locally with no network, and only approved masters are uploaded to the delivery platform"},
+    {"name": "D local open video model", "pattern": "local",
+     "credits_per_generated_s": 0, "sgd_per_credit": 0, "fixed_sgd": 5,
+     "render_s_per_generated_s": 240, "queue_s_per_job": 0,
+     "uploads_references": false, "data_leaves_premises": false, "region": "on-prem",
+     "quality_tier": 2, "shot_level_control": true,
+     "local_model_params_b": 14, "activation_overhead": 1.3,
+     "protocol": "Local node server on the workstation: workflow JSON queued over HTTP on localhost, progress events streamed over a WebSocket, files read and written on local disk"}
+  ]
+}

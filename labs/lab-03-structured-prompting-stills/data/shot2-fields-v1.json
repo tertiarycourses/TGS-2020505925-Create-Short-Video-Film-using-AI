@@ -1,0 +1,14 @@
+{
+  "prompt_version": "shot2-v1",
+  "subject": "A young woman courier",
+  "action": "runs through the market holding a box",
+  "environment": "a busy night market at noon, neon signs",
+  "camera": "close-up wide shot",
+  "style": "cinematic, cinematic, cinematic film look",
+  "constraints": "",
+  "references": [],
+  "negative": [],
+  "aspect_ratio": "16:9",
+  "resolution": "1K draft",
+  "seed": null
+}

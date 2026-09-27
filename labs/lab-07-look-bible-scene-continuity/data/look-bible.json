@@ -1,0 +1,21 @@
+{
+  "film": "The Last Ferry",
+  "look": "Blue-hour teal shadows, warm sodium and lantern practicals, wet reflective ground, light rain, no daylight, restrained saturation except neon signage.",
+  "grade_notes": [
+    "Night-for-night: never brighter than the master by more than ~15 V levels",
+    "Warm practicals, cool ambient",
+    "Neon may be saturated; skin and wardrobe must not be"
+  ],
+  "limits": {
+    "max_hist_dist": 0.35,
+    "max_abs_d_mean_v": 15,
+    "max_abs_d_warmth": 20,
+    "max_abs_d_tint": 12,
+    "max_abs_d_mean_s": 30
+  },
+  "limits_note": "Starting limits against the approved master of the SAME location. Tune them on your own approved shots and record why. A shot that fails any single gate goes back for regrade or regeneration.",
+  "masters": {
+    "market": "reference/look-master-market.png",
+    "pier": "reference/look-master-pier.png"
+  }
+}

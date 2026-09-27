@@ -1,0 +1,17 @@
+{
+  "film": "The Last Ferry",
+  "runtime_s": 48,
+  "master_w": 1920,
+  "master_h": 1080,
+  "post_passes": 3,
+  "review_minutes": 90,
+  "shots": [
+    {"id": "S1", "seconds": 8, "takes": 2},
+    {"id": "S2", "seconds": 8, "takes": 3, "note": "dense action: three takes"},
+    {"id": "S3", "seconds": 6, "takes": 2},
+    {"id": "S4", "seconds": 8, "takes": 2},
+    {"id": "S5", "seconds": 6, "takes": 2},
+    {"id": "S6", "seconds": 6, "takes": 2},
+    {"id": "S7", "seconds": 6, "takes": 1, "note": "video extension of S6"}
+  ]
+}

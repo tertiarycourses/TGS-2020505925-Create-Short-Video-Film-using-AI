@@ -1,0 +1,165 @@
+{
+  "note": "Designed simulation: spread is applied at fixed fractions so the measured variance is proportional to how much each prompt leaves unlocked. Real model output is noisier.",
+  "takes": {
+    "cellA_01.png": {
+      "cell": "A",
+      "coat_hue": 13,
+      "box": [
+        247,
+        226,
+        134,
+        270
+      ]
+    },
+    "cellA_02.png": {
+      "cell": "A",
+      "coat_hue": 19,
+      "box": [
+        327,
+        167,
+        167,
+        329
+      ]
+    },
+    "cellA_03.png": {
+      "cell": "A",
+      "coat_hue": 24,
+      "box": [
+        408,
+        106,
+        196,
+        390
+      ]
+    },
+    "cellA_04.png": {
+      "cell": "A",
+      "coat_hue": 31,
+      "box": [
+        565,
+        286,
+        105,
+        210
+      ]
+    },
+    "cellB_01.png": {
+      "cell": "B",
+      "coat_hue": 20,
+      "box": [
+        274,
+        220,
+        139,
+        276
+      ]
+    },
+    "cellB_02.png": {
+      "cell": "B",
+      "coat_hue": 21,
+      "box": [
+        340,
+        173,
+        162,
+        323
+      ]
+    },
+    "cellB_03.png": {
+      "cell": "B",
+      "coat_hue": 22,
+      "box": [
+        403,
+        124,
+        188,
+        372
+      ]
+    },
+    "cellB_04.png": {
+      "cell": "B",
+      "coat_hue": 24,
+      "box": [
+        530,
+        268,
+        113,
+        228
+      ]
+    },
+    "cellC_01.png": {
+      "cell": "C",
+      "coat_hue": 20,
+      "box": [
+        331,
+        210,
+        144,
+        286
+      ]
+    },
+    "cellC_02.png": {
+      "cell": "C",
+      "coat_hue": 21,
+      "box": [
+        363,
+        183,
+        157,
+        313
+      ]
+    },
+    "cellC_03.png": {
+      "cell": "C",
+      "coat_hue": 22,
+      "box": [
+        393,
+        154,
+        171,
+        342
+      ]
+    },
+    "cellC_04.png": {
+      "cell": "C",
+      "coat_hue": 24,
+      "box": [
+        460,
+        238,
+        130,
+        258
+      ]
+    },
+    "cellD_01.png": {
+      "cell": "D",
+      "coat_hue": 21,
+      "box": [
+        374,
+        200,
+        149,
+        296
+      ]
+    },
+    "cellD_02.png": {
+      "cell": "D",
+      "coat_hue": 21,
+      "box": [
+        381,
+        193,
+        152,
+        303
+      ]
+    },
+    "cellD_03.png": {
+      "cell": "D",
+      "coat_hue": 22,
+      "box": [
+        387,
+        184,
+        157,
+        312
+      ]
+    },
+    "cellD_04.png": {
+      "cell": "D",
+      "coat_hue": 23,
+      "box": [
+        405,
+        208,
+        144,
+        288
+      ]
+    }
+  }
+}

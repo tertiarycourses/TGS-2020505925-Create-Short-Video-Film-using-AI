@@ -1,0 +1,17 @@
+{
+  "shot": "S2 - Mei runs through the night market, medium shot",
+  "design": "Four prompt designs, four takes each. Each design locks MORE of the six fields than the one before it.",
+  "cells": {
+    "A": {"locks": [], "prompt": "A girl running through a market at night with a box, cinematic."},
+    "B": {"locks": ["subject"], "prompt": "@mei_sheet_v1 MEI (yellow raincoat, red scarf) runs through a night market holding @red_box_v1."},
+    "C": {"locks": ["subject", "environment", "style"], "prompt": "B + @night_market_plate_v1, blue-hour teal shadows with warm lantern practicals, light rain, 35mm film grain."},
+    "D": {"locks": ["subject", "environment", "style", "camera", "constraints"], "prompt": "C + medium shot, eye level, 35mm lens, subject centred on the vertical centre line, locked-off camera; keep coat and scarf colours exactly as the sheet; no extra foreground people."}
+  },
+  "measures": {
+    "sd_coat_hue": "Wardrobe drift: spread of the raincoat's median hue across the four takes (OpenCV hue units).",
+    "sd_subject_x_px": "Blocking drift: spread of the subject's horizontal position.",
+    "cv_subject_area": "Framing drift: coefficient of variation of the subject's area (a shot-size proxy).",
+    "sd_bg_warmth": "Look drift: spread of background warmth (mean red minus mean blue)."
+  },
+  "simulation_note": "The takes are SIMULATED with a designed, deterministic spread per cell so the ordering is guaranteed. Real model output is noisier - rerun the measurement on your own takes."
+}

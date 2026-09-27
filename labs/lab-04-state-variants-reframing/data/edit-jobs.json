@@ -1,0 +1,22 @@
+{
+  "mask_convention": "WHITE (255) = editable, BLACK (0) = preserve. Check the provider's contract: some tools use the opposite.",
+  "inpaint": {
+    "description": "Remove the stray orange traffic cone from the pier plate before it becomes a reference.",
+    "box": [626, 386, 64, 80],
+    "dilate_px": 4,
+    "radius": 5,
+    "target_hsv_lo": [5, 150, 150],
+    "target_hsv_hi": [20, 255, 255]
+  },
+  "verify": {
+    "description": "State B of HARBOUR PIER: 'same pier, same light, the ferry has pulled away - change nothing else'. Only the ferry zone may change.",
+    "allowed_box": [150, 200, 620, 160],
+    "pixel_threshold": 18,
+    "min_region_px": 150,
+    "max_outside_fraction": 0.002
+  },
+  "reframe": {
+    "description": "Deliver the pier plate as a 9:16 vertical master for Reels and Shorts.",
+    "targets": ["9:16", "4:5", "1:1"]
+  }
+}
